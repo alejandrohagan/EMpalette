@@ -392,8 +392,8 @@ display_all <- function(n, sequential = FALSE, colorblind_only = FALSE, directio
     N = length(colorblind_palettes)
     pal_names = colorblind_palettes
   }else{
-    N = length(EMPalettes)
-    pal_names = names(EMPalettes)
+    N = length(EMpalettes)
+    pal_names = names(EMpalettes)
   }
 
   orig_pars <- par()
